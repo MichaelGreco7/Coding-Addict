@@ -93,3 +93,25 @@ nav ul li a:hover {
 .turn .bar3 {
   transform: rotate(45deg) translate(-7px, -8px);
 }
+
+/* Once screen size gets to 690px do something */
+@media screen and (min-width: 690px) {
+  nav {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  #menu-btn {
+    display: none;
+  }
+  nav ul {
+    flex: 1 1 auto;
+    display: flex !important ;
+    /* Important */
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    flex: 1 0 125px;
+  }
+}
