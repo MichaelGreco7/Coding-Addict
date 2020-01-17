@@ -198,6 +198,31 @@ nav ul li a:hover {
 
 /* Skills Section */
 
+/* Skills Title */
+.title {
+  margin: 10px 0 40px 0;
+  cursor: pointer;
+}
+
+.title-text {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #575757;
+}
+
+.title-underline {
+  width: 50px;
+  border: 3px solid #2b98f0;
+  transition: width 4s ease, border 4s ease;
+}
+
+.title:hover .title-underline {
+  width: 200px;
+  border: 3px solid red;
+}
+
+/* End Skills Title */
+
 #skills {
   padding: 40px;
 }
